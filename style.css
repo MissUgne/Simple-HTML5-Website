@@ -1,0 +1,142 @@
+body {
+	font: Arial;
+	line-height: 1.0;
+}
+
+body a {
+    text-decoration: none;
+	color: white;
+}
+
+body a:hover{
+	text-decoration: none;
+	color: red;
+}
+
+.marg100 p, li, h3, h6, .row p {
+	margin-right: 120px;
+	margin-left: 120px;
+}
+
+.marg100 h1 {
+	padding: 20px;
+}
+
+.marg100 h6 {
+	font-size: 19px;
+	line-height: 1.375em;
+	color: #303030;
+	font-weight: 400;
+	margin-bottom: 30px;
+}
+
+.marg45 {
+	margin-bottom: 45px;
+}
+
+.navbar {
+  margin-bottom: 0;
+  background-color: #2d2d30;
+  border: 0;
+  font-size: 11px;
+  letter-spacing: 4px;
+  opacity: 0.9;
+}
+
+.navbar li a, .navbar .navbar-brand, footer p { 
+  color: #d5d5d5;
+  padding: 5px;
+  margin: 0px;
+}
+
+.navbar-nav li a:hover {
+  color: #fff;
+}
+
+.navbar-nav li.active a {
+  color: #fff;
+  background-color: #29292c;
+}
+
+.navbar-default .navbar-toggle {
+  border-color: transparent;
+}
+
+.home {
+    background: url(/Users/ugne/Documents/Sandra/IMG_20200207_174809.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+	margin-left: 0px;
+	margin-right: 0px;
+	height: 80vh;
+	max-width: 100%;
+}
+
+.home_title {
+ 	position: absolute;
+ 	background-color: rgb(0,0,0); /* Fallback color */
+   	background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+ 	color: white;
+ 	font-weight: bold;
+ 	letter-spacing: 10px;
+ 	text-align: left;
+ 	padding: 2px;
+ 	top: 70%;
+	left: 30%;
+ 	transform: translate(-50%, -50%);
+}
+
+.home_title h1 {
+	font-size: 4em;
+}
+
+.wrap {
+ 	position: relative;
+ 	text-align: left;
+ 	color: white;
+}
+
+.center {
+	text-align: center;
+}
+
+.justify {
+	text-align: justify;
+}
+
+.left {
+	text-align: left;
+}
+
+.pad-20 {
+	padding: 20px;
+}
+
+.bg-1 {
+	background-color: #2f2f2f;
+	color: #fff;
+}
+ 
+.bg-2 {
+ 	background-color: #f6f6f6;
+}
+ 
+.bg-2 p {
+ 	color: #818181;
+}
+
+footer.container-fluid {
+ 	padding-top: 20px;
+ 	padding-bottom: 20px;
+ 	font-size: 10px;
+}
+ 
+.container-fluid {
+ 	padding-bottom: 60px;
+	padding-top: 60px;
+}
+.col-sm-4 {
+	 font-size: 15px;
+}
