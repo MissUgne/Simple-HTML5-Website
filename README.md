@@ -1,3 +1,4 @@
 # Simple-HTML5-Website
-Simple HTML5, CSS3 Website
-Photo by Startup Stock Photos from Pexels
+
+Simple one page website design using only HTML5 and CSS3. <br>
+Photo by Startup Stock Photos from Pexels. <br>
